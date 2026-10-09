@@ -1,0 +1,41 @@
+review_id,review_text,actual_sentiment,pred_classic
+7,Sudah bayar mahal tapi kualitas jauh dari ekspektasi.,negatif,negatif
+8,"Belanja disini selalu puas, kualitas terjaga.",positif,positif
+14,"Barang yang datang tidak sesuai dengan foto, kecewa berat.",negatif,negatif
+15,Barang tidak berfungsi sama sekali begitu diterima.,negatif,negatif
+22,"Sudah langganan di toko ini, kualitas selalu konsisten bagus.",positif,positif
+25,"Bahan murahan, tidak sesuai dengan harga yang dibayarkan.",negatif,positif
+30,Sudah bayar mahal tapi kualitas jauh dari ekspektasi.,negatif,negatif
+35,Barang tidak berfungsi sama sekali begitu diterima.,negatif,negatif
+40,"Produknya rapi dan bersih, tidak ada cacat sama sekali.",positif,negatif
+45,"Barang datang lebih cepat dari perkiraan, kualitas top!",positif,positif
+48,Sudah bayar mahal tapi kualitas jauh dari ekspektasi.,negatif,negatif
+59,"Bahan murahan, tidak sesuai dengan harga yang dibayarkan.",negatif,positif
+62,"Bahan murahan, tidak sesuai dengan harga yang dibayarkan.",negatif,positif
+69,"Sudah langganan di toko ini, kualitas selalu konsisten bagus.",positif,positif
+76,"Barang datang lebih cepat dari perkiraan, kualitas top!",positif,positif
+87,"Sudah langganan di toko ini, kualitas selalu konsisten bagus.",positif,positif
+95,"Bahan murahan, tidak sesuai dengan harga yang dibayarkan.",negatif,positif
+96,"Barang datang lebih cepat dari perkiraan, kualitas top!",positif,positif
+109,"Produknya rapi dan bersih, tidak ada cacat sama sekali.",positif,negatif
+110,"Barang datang lebih cepat dari perkiraan, kualitas top!",positif,positif
+121,"Produknya rapi dan bersih, tidak ada cacat sama sekali.",positif,negatif
+128,Barang tidak berfungsi sama sekali begitu diterima.,negatif,negatif
+132,Sudah bayar mahal tapi kualitas jauh dari ekspektasi.,negatif,negatif
+133,"Produknya rapi dan bersih, tidak ada cacat sama sekali.",positif,negatif
+137,"Bahan murahan, tidak sesuai dengan harga yang dibayarkan.",negatif,positif
+142,"Barang datang lebih cepat dari perkiraan, kualitas top!",positif,positif
+144,"Produknya rapi dan bersih, tidak ada cacat sama sekali.",positif,negatif
+150,"Belanja disini selalu puas, kualitas terjaga.",positif,positif
+151,Sudah bayar mahal tapi kualitas jauh dari ekspektasi.,negatif,negatif
+153,"Barang datang lebih cepat dari perkiraan, kualitas top!",positif,positif
+154,"Produknya rapi dan bersih, tidak ada cacat sama sekali.",positif,negatif
+157,"Produknya rapi dan bersih, tidak ada cacat sama sekali.",positif,negatif
+165,"Produknya rapi dan bersih, tidak ada cacat sama sekali.",positif,negatif
+175,Barang tidak berfungsi sama sekali begitu diterima.,negatif,negatif
+180,Barang tidak berfungsi sama sekali begitu diterima.,negatif,negatif
+186,"Belanja disini selalu puas, kualitas terjaga.",positif,positif
+188,"Sudah langganan di toko ini, kualitas selalu konsisten bagus.",positif,positif
+190,Barang tidak berfungsi sama sekali begitu diterima.,negatif,negatif
+196,"Bahan murahan, tidak sesuai dengan harga yang dibayarkan.",negatif,positif
+198,"Produknya rapi dan bersih, tidak ada cacat sama sekali.",positif,negatif

@@ -1,0 +1,15 @@
+# Library inti
+pandas>=2.2
+numpy>=1.26
+scikit-learn>=1.4
+matplotlib>=3.8
+seaborn>=0.13
+
+# Gemini API (google-genai)
+google-genai>=1.0
+
+# Utilitas
+python-dotenv>=1.0
+
+# Menjalankan notebook
+jupyter>=1.0
