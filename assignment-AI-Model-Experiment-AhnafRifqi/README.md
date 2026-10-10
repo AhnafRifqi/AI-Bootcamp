@@ -68,7 +68,7 @@ assignment-AI-Model-Experiment-AhnafRifqi/
 
 ### 5.2 LLM API (Gemini)
 - Pendekatan prompting: **zero-shot**, prompt meminta jawaban satu kata (`positif`/`negatif`).
-- Model: `gemini-3.8-flash`, parameter `temperature=0.2` (dipilih agar output konsisten untuk tugas klasifikasi).
+- Model: `gemini-2.5-flash`, parameter `temperature=0.2` (dipilih agar output konsisten untuk tugas klasifikasi).
 - Output dinormalisasi agar sesuai label dataset; ada cache lokal agar menjalankan ulang tidak memanggil API berulang.
 - Inference dijalankan **per teks unik** (8 teks) lalu dipetakan ke 40 baris test, bukan per baris — hemat kuota & biaya ~5x. Notebook memakai cache berdasarkan ID dan teks ulasan yang cocok, menyimpan hasil yang berhasil, dan otomatis melanjutkan teks yang belum selesai (resume). Status: 3 dari 8 teks unik sudah terprediksi (tersimpan di cache); 5 teks sisanya menunggu kuota harian free-tier reset (HTTP 429, limit 20 request/model/hari). Metrik LLM tidak disimpulkan dari cache parsial.
 
