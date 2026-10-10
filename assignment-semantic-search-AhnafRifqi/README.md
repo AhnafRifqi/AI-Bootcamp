@@ -155,4 +155,4 @@ Assignment selesai dan tervalidasi penuh. Ringkasan akhir:
 - **Query di luar KB** (kripto): skor top-1 terendah (0,71) dan LLM **menolak dengan jujur** + sarankan CS — tidak mengarang.
 - 6/6 jawaban LLM sesuai konteks, tanpa halusinasi.
 
-**Validasi akhir:** 0 error output · semua code cell ter-eksekusi · `nbformat` valid · `.env` di-ignore · folder hanya `??` untracked di Git (belum di-commit sesuai instruksi). Kalau nanti mau submit, tinggal bilang — saya bisa bantu commit & push dengan nama repo `assignment-semantic-search-AhnafRifqi`.
+**Validasi akhir:** 0 error output · semua code cell ter-eksekusi · `nbformat` valid · `.env` di-ignore · folder hanya `??` untracked di Git (belum di-commit sesuai instruksi). Kalau nanti mau submit, tinggal bilang — saya bisa bantu commit & push dengan nama repo `assignment-semantic-search-AhnafRifqi`. 
