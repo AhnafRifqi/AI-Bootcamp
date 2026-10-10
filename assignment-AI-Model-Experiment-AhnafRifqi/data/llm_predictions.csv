@@ -1,6 +1,4 @@
 review_id,review_text,pred_llm
 69,"Sudah langganan di toko ini, kualitas selalu konsisten bagus.",positif
-116,"Suka banget sama warnanya, sesuai ekspektasi.",positif
-70,"Kualitas produk sangat memuaskan, akan order lagi.",positif
 7,Sudah bayar mahal tapi kualitas jauh dari ekspektasi.,negatif
 190,Barang tidak berfungsi sama sekali begitu diterima.,negatif

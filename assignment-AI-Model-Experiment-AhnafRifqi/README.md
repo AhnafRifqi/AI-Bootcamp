@@ -24,13 +24,14 @@ assignment-AI-Model-Experiment-AhnafRifqi/
 ├── data/
 │   ├── customer_reviews_sentiment.csv   # dataset asli (tidak diubah)
 │   ├── predictions_classic.csv          # output prediksi model klasik
-│   ├── predictions_llm.csv              # output prediksi LLM
-│   └── llm_predictions.csv              # cache hasil panggilan Gemini (hemat biaya saat ulang)
+│   ├── predictions_llm.csv              # output prediksi LLM (dibuat saat Run All)
+│   └── llm_predictions.csv              # cache prediksi Gemini per teks unik (resume otomatis)
 ├── notebook/
 │   └── experiment_notebook.ipynb
-├── documentation/
+├── documentation/                       # dihasilkan otomatis oleh notebook (Run All)
 │   ├── model_comparison_summary.png     # confusion matrix kedua pendekatan
 │   └── comparison_summary.csv           # tabel ringkasan metrik
+├── _tmp_batch_llm.py                    # helper opsional: lengkapi cache LLM di luar notebook
 ├── README.md
 ├── requirements.txt
 ├── .env.example
@@ -56,6 +57,8 @@ assignment-AI-Model-Experiment-AhnafRifqi/
    ```
    Notebook dapat dijalankan dari root project maupun dari dalam folder `notebook/` (path sudah menyesuaikan otomatis).
 
+> **Catatan kuota & cache LLM.** Inference Gemini memanggil API **sekali per teks unik** (test set berisi 40 baris tetapi hanya 8 teks unik), sehingga total yang dibutuhkan hanya 8 permintaan — muat dalam kuota free-tier harian (20 request/model/hari). Hasil disimpan di `data/llm_predictions.csv` dan bersifat *resume*: jika kuota habis di tengah jalan, cukup jalankan ulang — teks yang sudah terprediksi tidak dipanggil lagi. Alternatif: jalankan helper `python _tmp_batch_llm.py` dari root project untuk melengkapi cache tanpa membuka notebook.
+
 ## 5. Ringkasan Eksperimen
 
 ### 5.1 Model Klasik (Scikit-learn)
@@ -67,27 +70,27 @@ assignment-AI-Model-Experiment-AhnafRifqi/
 - Pendekatan prompting: **zero-shot**, prompt meminta jawaban satu kata (`positif`/`negatif`).
 - Model: `gemini-3.8-flash`, parameter `temperature=0.2` (dipilih agar output konsisten untuk tugas klasifikasi).
 - Output dinormalisasi agar sesuai label dataset; ada cache lokal agar menjalankan ulang tidak memanggil API berulang.
-- Notebook memakai cache berdasarkan ID dan teks ulasan yang cocok, dan menyimpan hasil yang berhasil. Pada eksekusi terakhir kuota free-tier Gemini habis sebelum inference lengkap (HTTP 429, limit 20 request/model/hari); karena itu metrik LLM dan tabel perbandingan belum tersedia dan tidak disimpulkan dari cache parsial.
+- Inference dijalankan **per teks unik** (8 teks) lalu dipetakan ke 40 baris test, bukan per baris — hemat kuota & biaya ~5x. Notebook memakai cache berdasarkan ID dan teks ulasan yang cocok, menyimpan hasil yang berhasil, dan otomatis melanjutkan teks yang belum selesai (resume). Status: 3 dari 8 teks unik sudah terprediksi (tersimpan di cache); 5 teks sisanya menunggu kuota harian free-tier reset (HTTP 429, limit 20 request/model/hari). Metrik LLM tidak disimpulkan dari cache parsial.
 
 ## 6. Hasil Evaluasi
 
 | Metrik | Model Klasik (Scikit-learn) | LLM API (Gemini) |
 |---|---|---|
-| Accuracy | 0,6250 | Belum tersedia (kuota API) |
-| Precision (macro) | 0,6278 | Belum tersedia (kuota API) |
-| Recall (macro) | 0,6288 | Belum tersedia (kuota API) |
-| F1-Score (macro) | 0,6248 | Belum tersedia (kuota API) |
+| Accuracy | 0,6250 | Belum tersedia (3/8 teks unik, menunggu kuota reset) |
+| Precision (macro) | 0,6278 | Belum tersedia (3/8 teks unik, menunggu kuota reset) |
+| Recall (macro) | 0,6288 | Belum tersedia (3/8 teks unik, menunggu kuota reset) |
+| F1-Score (macro) | 0,6248 | Belum tersedia (3/8 teks unik, menunggu kuota reset) |
 
-Interpretasi: accuracy berarti 25 dari 40 prediksi klasik benar. Precision dan recall macro merata-ratakan kedua kelas, masing-masing sekitar 0,63. Confusion matrix (baris aktual, kolom prediksi; urutan `negatif`, `positif`) adalah `[[12, 6], [9, 13]]`: 6 ulasan negatif salah menjadi positif dan 9 ulasan positif salah menjadi negatif. Metrik Gemini tidak dihitung karena belum ada prediksi lengkap pada test set ini.
+Interpretasi: accuracy berarti 25 dari 40 prediksi klasik benar. Precision dan recall macro merata-ratakan kedua kelas, masing-masing sekitar 0,63. Confusion matrix (baris aktual, kolom prediksi; urutan `negatif`, `positif`) adalah `[[12, 6], [9, 13]]`: 6 ulasan negatif salah menjadi positif dan 9 ulasan positif salah menjadi negatif. Metrik Gemini dihitung oleh notebook **setelah 8/8 teks unik terprediksi** — cukup jalankan ulang `experiment_notebook.ipynb` (atau `python _tmp_batch_llm.py` lalu Run All) setelah kuota harian reset; notebook otomatis mengisi sel evaluasi, tabel perbandingan, dan confusion matrix.
 
 Detail lain: confusion matrix di `documentation/model_comparison_summary.png`, prediksi per-ulasan di `data/predictions_classic.csv` dan `data/predictions_llm.csv`.
 
 ## 7. Analisis Trade-off dan Limitation
 
-Belum dapat dinyatakan pendekatan mana yang unggul dari sisi performa karena metrik Gemini belum tersedia. Model klasik perlu preprocessing dan training, tetapi prediksi berjalan lokal tanpa biaya per-request serta latensinya dapat dikendalikan. Gemini dapat dicoba tanpa training khusus dan cepat disiapkan, tetapi inference bergantung pada layanan jaringan, menambah latensi, serta memiliki potensi biaya dan batas kuota.
+Belum dapat dinyatakan pendekatan mana yang unggul dari sisi performa karena metrik Gemini belum tersedia (teks unik baru 3/8 tercache, 5 permintaan menunggu kuota reset). Model klasik perlu preprocessing dan training, tetapi prediksi berjalan lokal tanpa biaya per-request serta latensinya dapat dikendalikan. Gemini dapat dicoba tanpa training khusus dan cepat disiapkan, tetapi inference bergantung pada layanan jaringan, menambah latensi, serta memiliki potensi biaya dan batas kuota.
 
-Keterbatasan utama adalah dataset yang kecil dan repetitif: 200 baris hanya mewakili 40 teks unik. Split acak per baris menghasilkan kebocoran data; grouped split mencegahnya tetapi test hanya berisi 8 teks unik. Model klasik salah mengklasifikasikan contoh dari kedua kelas (6 negatif sebagai positif, 9 positif sebagai negatif). Kualitas label diasumsikan benar dan data belum tentu mewakili ulasan produksi. Gemini belum dapat dianalisis karena kuota free-tier habis; cache parsial tidak dipakai sebagai evaluasi.
+Keterbatasan utama adalah dataset yang kecil dan repetitif: 200 baris hanya mewakili 40 teks unik. Split acak per baris menghasilkan kebocoran data; grouped split mencegahnya tetapi test hanya berisi 8 teks unik. Model klasik salah mengklasifikasikan contoh dari kedua kelas (6 negatif sebagai positif, 9 positif sebagai negatif). Kualitas label diasumsikan benar dan data belum tentu mewakili ulasan produksi. Gemini belum dapat dianalisis karena kuota free-tier habis saat menyisakan 5 teks unik; cache parsial tidak dipakai sebagai evaluasi.
 
 ## 8. Rekomendasi Technical Approach
 
-Gunakan TF-IDF + Logistic Regression sebagai baseline lokal untuk iterasi lanjutan karena mudah dioperasikan dan tidak bergantung pada kuota API, tetapi **jangan deploy ke produksi berdasarkan hasil ini**: macro-F1 0,6248 masih terbatas. Belum ada dasar yang cukup untuk memilihnya dibanding Gemini sebelum inference Gemini selesai pada test set identik. Setelah kuota tersedia, lengkapi evaluasi Gemini; kumpulkan lebih banyak teks unik dan validasi pada test set representatif yang lebih besar sebelum keputusan produksi.
+Gunakan TF-IDF + Logistic Regression sebagai baseline lokal untuk iterasi lanjutan karena mudah dioperasikan dan tidak bergantung pada kuota API, tetapi **jangan deploy ke produksi berdasarkan hasil ini**: macro-F1 0,6248 masih terbatas. Belum ada dasar yang cukup untuk memilihnya dibanding Gemini sebelum inference Gemini selesai pada test set identik. Setelah kuota harian reset, lengkapi 5 permintaan tersisa (jalankan ulang notebook atau `python _tmp_batch_llm.py`, keduanya *resume* dari cache) lalu Run All untuk menghasilkan metrik LLM dan tabel perbandingan; kumpulkan lebih banyak teks unik dan validasi pada test set representatif yang lebih besar sebelum keputusan produksi.
