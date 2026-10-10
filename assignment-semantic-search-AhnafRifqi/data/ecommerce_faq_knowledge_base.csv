@@ -1,0 +1,60 @@
+faq_id,category,question,answer
+1,Pemesanan,Bagaimana cara melakukan pemesanan di platform ini?,"Pilih produk yang diinginkan, klik 'Tambah ke Keranjang', lalu lanjutkan ke halaman checkout untuk mengisi alamat pengiriman dan metode pembayaran."
+2,Pemesanan,Apakah saya bisa memesan tanpa membuat akun?,"Saat ini pemesanan hanya bisa dilakukan setelah membuat akun, agar Anda dapat melacak status pesanan dengan mudah."
+3,Pemesanan,Bagaimana cara membatalkan pesanan yang sudah dibuat?,"Pesanan dapat dibatalkan melalui halaman 'Pesanan Saya' selama status masih 'Diproses'. Setelah status berubah menjadi 'Dikirim', pembatalan tidak dapat dilakukan."
+4,Pemesanan,Berapa lama waktu yang dibutuhkan sebelum pesanan diproses penjual?,Penjual biasanya memproses pesanan dalam waktu 1x24 jam setelah pembayaran dikonfirmasi.
+5,Pemesanan,Apakah saya bisa mengubah alamat pengiriman setelah pesanan dibuat?,Perubahan alamat hanya bisa dilakukan sebelum pesanan berstatus 'Dikirim'. Silakan hubungi customer service secepatnya jika ingin mengubah alamat.
+6,Pemesanan,Bagaimana cara mengetahui status pesanan saya saat ini?,Anda bisa memeriksa status pesanan secara real-time melalui menu 'Pesanan Saya' di akun Anda.
+7,Pemesanan,Apakah bisa menggabungkan beberapa pesanan menjadi satu pengiriman?,Penggabungan pesanan hanya bisa dilakukan jika pesanan berasal dari penjual yang sama dan belum diproses untuk pengiriman.
+8,Pemesanan,Kenapa pesanan saya otomatis dibatalkan sistem?,"Pesanan otomatis dibatalkan apabila pembayaran tidak diterima dalam batas waktu yang ditentukan, biasanya 24 jam setelah checkout."
+9,Pengiriman,Berapa lama estimasi waktu pengiriman barang?,"Estimasi pengiriman umumnya 2-5 hari kerja untuk area dalam kota dan 5-10 hari kerja untuk luar pulau, tergantung jasa kirim yang dipilih."
+10,Pengiriman,Bagaimana cara melacak paket yang sedang dikirim?,"Nomor resi akan muncul di halaman 'Pesanan Saya' setelah barang dikirim, dan dapat digunakan untuk melacak posisi paket di website kurir terkait."
+11,Pengiriman,Apakah tersedia opsi pengiriman same-day?,"Pengiriman same-day tersedia untuk beberapa kota besar tertentu, tergantung ketersediaan kurir di lokasi penjual."
+12,Pengiriman,Bagaimana jika paket saya belum sampai melebihi estimasi?,"Jika paket melebihi estimasi pengiriman lebih dari 3 hari, silakan hubungi customer service dengan menyertakan nomor resi untuk ditelusuri lebih lanjut."
+13,Pengiriman,Apakah ongkos kirim sudah termasuk asuransi pengiriman?,Asuransi pengiriman bersifat opsional dan dapat dipilih tambahannya saat proses checkout dengan biaya tambahan kecil.
+14,Pengiriman,Kenapa status pengiriman saya tidak berubah selama beberapa hari?,Status yang tidak berubah bisa disebabkan keterlambatan update sistem kurir. Disarankan menunggu 1x24 jam sebelum melaporkan ke customer service.
+15,Pengiriman,Apakah bisa memilih jasa pengiriman sendiri saat checkout?,"Ya, Anda dapat memilih jasa pengiriman yang tersedia pada halaman checkout sesuai preferensi dan estimasi biaya masing-masing."
+16,Pengiriman,Apa yang harus dilakukan jika paket diterima dalam kondisi rusak?,Segera ambil foto/video kondisi paket saat diterima dan laporkan melalui menu komplain dalam waktu 2x24 jam sejak barang diterima.
+17,Pembayaran,Metode pembayaran apa saja yang tersedia?,"Kami mendukung transfer bank, kartu kredit/debit, e-wallet, dan pembayaran melalui minimarket rekanan."
+18,Pembayaran,Apakah ada biaya tambahan untuk pembayaran menggunakan kartu kredit?,Beberapa metode kartu kredit dikenakan biaya admin tambahan yang besarannya ditampilkan sebelum konfirmasi pembayaran.
+19,Pembayaran,Berapa lama batas waktu pembayaran sebelum pesanan dibatalkan?,"Batas waktu pembayaran umumnya 24 jam sejak pesanan dibuat, tergantung metode pembayaran yang dipilih."
+20,Pembayaran,Apakah saya bisa membayar dengan cicilan?,Fitur cicilan tersedia untuk transaksi dengan kartu kredit tertentu pada nominal minimal yang ditentukan pihak bank.
+21,Pembayaran,Kenapa pembayaran saya berhasil dipotong tapi status pesanan masih belum terbayar?,Ini biasanya karena keterlambatan sinkronisasi sistem pembayaran. Silakan tunggu 15-30 menit atau hubungi customer service jika status belum berubah.
+22,Pembayaran,Apakah bisa membayar menggunakan lebih dari satu metode sekaligus?,Saat ini sistem belum mendukung pembayaran gabungan (split payment) dalam satu transaksi.
+23,Pembayaran,Bagaimana cara mendapatkan bukti pembayaran atau invoice?,Invoice otomatis tersedia dan dapat diunduh melalui halaman detail pesanan setelah pembayaran berhasil dikonfirmasi.
+24,Pengembalian,Bagaimana prosedur pengembalian barang yang tidak sesuai?,"Ajukan pengembalian melalui menu 'Pesanan Saya' dengan memilih alasan dan menyertakan bukti foto, maksimal 3 hari sejak barang diterima."
+25,Pengembalian,Berapa lama proses refund setelah pengembalian disetujui?,Dana refund biasanya diproses dalam 3-7 hari kerja setelah barang dikembalikan diterima dan diverifikasi penjual.
+26,Pengembalian,Apakah semua produk bisa dikembalikan?,"Produk seperti pakaian dalam, produk higienis, dan barang custom umumnya tidak dapat dikembalikan kecuali terbukti cacat produksi."
+27,Pengembalian,Ke mana dana refund akan dikembalikan?,"Dana refund akan dikembalikan ke metode pembayaran awal, atau ke saldo akun apabila memilih opsi tersebut saat pengajuan."
+28,Pengembalian,Apakah biaya ongkos kirim pengembalian ditanggung pembeli?,"Jika barang tidak sesuai deskripsi atau cacat produksi, ongkos kirim pengembalian ditanggung penjual. Jika alasan pribadi (bukan karena kesalahan penjual), biaya ditanggung pembeli."
+29,Pengembalian,Bagaimana jika penjual menolak pengajuan pengembalian saya?,Anda dapat mengajukan banding melalui pusat resolusi dengan menyertakan bukti tambahan agar ditinjau oleh tim mediasi.
+30,Pengembalian,Apakah bisa menukar barang dengan ukuran/warna lain daripada refund?,"Penukaran ukuran/warna tergantung kebijakan masing-masing penjual, silakan cek ketersediaan stok terlebih dahulu sebelum mengajukan."
+31,Akun,Bagaimana cara mendaftar akun baru?,"Klik tombol 'Daftar' di halaman utama, isi data diri seperti nama, email, dan nomor telepon, lalu verifikasi melalui kode OTP."
+32,Akun,"Saya lupa password akun, bagaimana cara mengaturnya ulang?","Klik 'Lupa Password' pada halaman login, masukkan email terdaftar, lalu ikuti instruksi reset password yang dikirim ke email Anda."
+33,Akun,Bagaimana cara mengubah nomor telepon yang terdaftar di akun?,Nomor telepon dapat diubah melalui menu 'Pengaturan Akun' dan memerlukan verifikasi ulang melalui kode OTP ke nomor baru.
+34,Akun,Apakah bisa memiliki lebih dari satu akun dengan email yang sama?,Satu alamat email hanya dapat digunakan untuk satu akun demi keamanan dan mencegah penyalahgunaan promo.
+35,Akun,Bagaimana cara menghapus akun secara permanen?,Pengajuan penghapusan akun dapat dilakukan melalui menu 'Pengaturan Akun > Hapus Akun' atau menghubungi customer service.
+36,Akun,Apakah data pribadi saya aman di platform ini?,Kami menerapkan enkripsi data dan kebijakan privasi ketat untuk melindungi data pribadi pengguna sesuai regulasi yang berlaku.
+37,Promo,Bagaimana cara menggunakan kode voucher saat checkout?,"Masukkan kode voucher pada kolom 'Kode Promo' di halaman checkout sebelum melakukan pembayaran, diskon akan otomatis terpotong."
+38,Promo,Kenapa kode voucher saya tidak bisa digunakan?,"Kode voucher mungkin sudah kedaluwarsa, tidak berlaku untuk kategori produk tersebut, atau telah mencapai batas penggunaan maksimal."
+39,Promo,Apakah promo bisa digabung dengan diskon member?,"Beberapa promo dapat digabung dengan diskon member, namun ada juga promo eksklusif yang tidak dapat ditumpuk. Ketentuan tertera pada halaman detail promo."
+40,Promo,Bagaimana cara mendapatkan info promo terbaru?,"Info promo terbaru dapat dilihat pada halaman utama, email berlangganan, atau notifikasi aplikasi yang telah diaktifkan."
+41,Promo,Apakah cashback dari promo langsung masuk ke saldo?,Cashback biasanya diproses dan masuk ke saldo akun dalam 1x24 jam setelah transaksi selesai dan terverifikasi.
+42,Produk,Bagaimana cara mengetahui apakah suatu produk asli atau palsu?,Belanja di toko resmi/terverifikasi dan periksa deskripsi serta ulasan pembeli lain sebagai indikator keaslian produk.
+43,Produk,Apakah stok yang tertera di aplikasi selalu update secara real-time?,"Stok diperbarui secara berkala oleh penjual, namun kadang terjadi selisih kecil apabila ada transaksi bersamaan dari banyak pembeli."
+44,Produk,Bagaimana jika produk yang saya pesan ternyata kehabisan stok?,"Jika stok habis setelah pesanan dibuat, penjual akan membatalkan sebagian/seluruh pesanan dan dana otomatis dikembalikan."
+45,Produk,Apakah saya bisa request custom produk kepada penjual?,"Beberapa penjual menyediakan opsi request custom melalui kolom catatan pesanan, namun ketersediaannya tergantung masing-masing toko."
+46,Produk,Di mana saya bisa melihat ukuran/size chart produk pakaian?,"Size chart biasanya tersedia pada galeri foto produk atau bagian deskripsi produk, silakan periksa sebelum melakukan pemesanan."
+47,Produk,Bagaimana cara memberikan ulasan untuk produk yang sudah dibeli?,"Ulasan dapat diberikan melalui menu 'Pesanan Saya' setelah status pesanan menjadi 'Selesai', dengan menyertakan rating dan foto jika diinginkan."
+48,Customer Service,Bagaimana cara menghubungi customer service?,"Customer service dapat dihubungi melalui fitur live chat di aplikasi, email resmi, atau nomor telepon yang tertera di halaman bantuan."
+49,Customer Service,Berapa lama waktu respon customer service terhadap keluhan?,"Rata-rata waktu respon adalah 1x24 jam pada hari kerja, dapat lebih lama pada periode promo besar karena tingginya volume chat."
+50,Customer Service,Bagaimana cara melaporkan penjual yang menipu?,Laporkan melalui menu 'Pusat Resolusi' dengan menyertakan bukti transaksi dan komunikasi sebagai bahan investigasi tim internal.
+51,Customer Service,Apakah tersedia layanan pengaduan 24 jam?,"Live chat otomatis (chatbot) tersedia 24 jam, sementara agen customer service manusia melayani pada jam operasional tertentu."
+52,Pengiriman,Kenapa nomor resi saya belum bisa dilacak di website kurir?,"Nomor resi baru dapat dilacak setelah paket diserahterimakan ke pihak kurir, biasanya butuh waktu beberapa jam setelah status 'Dikirim'."
+53,Pembayaran,Apakah saya perlu konfirmasi manual setelah transfer bank?,"Untuk transfer bank melalui Virtual Account, konfirmasi dilakukan otomatis oleh sistem. Transfer manual biasa memerlukan upload bukti transfer."
+54,Pengembalian,"Saya menerima barang yang salah, apa yang harus saya lakukan?","Ajukan komplain 'Barang Tidak Sesuai' melalui menu Pesanan Saya, sertakan foto barang yang diterima untuk mempercepat proses verifikasi."
+55,Akun,Kenapa akun saya tiba-tiba tidak bisa login?,Akun dapat terkunci sementara karena kesalahan login berulang atau terindikasi aktivitas mencurigakan. Silakan reset password atau hubungi customer service.
+56,Promo,Apakah member baru mendapat diskon khusus?,"Pengguna baru biasanya mendapat voucher selamat datang yang dapat digunakan pada transaksi pertama, cek halaman promo setelah pendaftaran."
+57,Produk,Bagaimana cara membandingkan beberapa produk sekaligus?,Gunakan fitur 'Bandingkan Produk' pada halaman kategori untuk melihat spesifikasi beberapa produk secara berdampingan.
+58,Pemesanan,Apakah bisa memesan dalam jumlah besar untuk kebutuhan reseller?,"Untuk pembelian grosir, silakan hubungi penjual langsung melalui chat untuk menanyakan ketersediaan stok dan kemungkinan harga khusus."
+59,Customer Service,Bagaimana cara eskalasi keluhan jika belum ditangani customer service?,"Apabila keluhan belum terselesaikan dalam waktu wajar, Anda dapat mengajukan eskalasi melalui email resmi dengan menyertakan nomor tiket sebelumnya."

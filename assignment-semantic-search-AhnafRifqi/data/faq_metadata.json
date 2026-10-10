@@ -1,0 +1,356 @@
+[
+  {
+    "faq_id": 1,
+    "category": "Pemesanan",
+    "question": "Bagaimana cara melakukan pemesanan di platform ini?",
+    "answer": "Pilih produk yang diinginkan, klik 'Tambah ke Keranjang', lalu lanjutkan ke halaman checkout untuk mengisi alamat pengiriman dan metode pembayaran."
+  },
+  {
+    "faq_id": 2,
+    "category": "Pemesanan",
+    "question": "Apakah saya bisa memesan tanpa membuat akun?",
+    "answer": "Saat ini pemesanan hanya bisa dilakukan setelah membuat akun, agar Anda dapat melacak status pesanan dengan mudah."
+  },
+  {
+    "faq_id": 3,
+    "category": "Pemesanan",
+    "question": "Bagaimana cara membatalkan pesanan yang sudah dibuat?",
+    "answer": "Pesanan dapat dibatalkan melalui halaman 'Pesanan Saya' selama status masih 'Diproses'. Setelah status berubah menjadi 'Dikirim', pembatalan tidak dapat dilakukan."
+  },
+  {
+    "faq_id": 4,
+    "category": "Pemesanan",
+    "question": "Berapa lama waktu yang dibutuhkan sebelum pesanan diproses penjual?",
+    "answer": "Penjual biasanya memproses pesanan dalam waktu 1x24 jam setelah pembayaran dikonfirmasi."
+  },
+  {
+    "faq_id": 5,
+    "category": "Pemesanan",
+    "question": "Apakah saya bisa mengubah alamat pengiriman setelah pesanan dibuat?",
+    "answer": "Perubahan alamat hanya bisa dilakukan sebelum pesanan berstatus 'Dikirim'. Silakan hubungi customer service secepatnya jika ingin mengubah alamat."
+  },
+  {
+    "faq_id": 6,
+    "category": "Pemesanan",
+    "question": "Bagaimana cara mengetahui status pesanan saya saat ini?",
+    "answer": "Anda bisa memeriksa status pesanan secara real-time melalui menu 'Pesanan Saya' di akun Anda."
+  },
+  {
+    "faq_id": 7,
+    "category": "Pemesanan",
+    "question": "Apakah bisa menggabungkan beberapa pesanan menjadi satu pengiriman?",
+    "answer": "Penggabungan pesanan hanya bisa dilakukan jika pesanan berasal dari penjual yang sama dan belum diproses untuk pengiriman."
+  },
+  {
+    "faq_id": 8,
+    "category": "Pemesanan",
+    "question": "Kenapa pesanan saya otomatis dibatalkan sistem?",
+    "answer": "Pesanan otomatis dibatalkan apabila pembayaran tidak diterima dalam batas waktu yang ditentukan, biasanya 24 jam setelah checkout."
+  },
+  {
+    "faq_id": 9,
+    "category": "Pengiriman",
+    "question": "Berapa lama estimasi waktu pengiriman barang?",
+    "answer": "Estimasi pengiriman umumnya 2-5 hari kerja untuk area dalam kota dan 5-10 hari kerja untuk luar pulau, tergantung jasa kirim yang dipilih."
+  },
+  {
+    "faq_id": 10,
+    "category": "Pengiriman",
+    "question": "Bagaimana cara melacak paket yang sedang dikirim?",
+    "answer": "Nomor resi akan muncul di halaman 'Pesanan Saya' setelah barang dikirim, dan dapat digunakan untuk melacak posisi paket di website kurir terkait."
+  },
+  {
+    "faq_id": 11,
+    "category": "Pengiriman",
+    "question": "Apakah tersedia opsi pengiriman same-day?",
+    "answer": "Pengiriman same-day tersedia untuk beberapa kota besar tertentu, tergantung ketersediaan kurir di lokasi penjual."
+  },
+  {
+    "faq_id": 12,
+    "category": "Pengiriman",
+    "question": "Bagaimana jika paket saya belum sampai melebihi estimasi?",
+    "answer": "Jika paket melebihi estimasi pengiriman lebih dari 3 hari, silakan hubungi customer service dengan menyertakan nomor resi untuk ditelusuri lebih lanjut."
+  },
+  {
+    "faq_id": 13,
+    "category": "Pengiriman",
+    "question": "Apakah ongkos kirim sudah termasuk asuransi pengiriman?",
+    "answer": "Asuransi pengiriman bersifat opsional dan dapat dipilih tambahannya saat proses checkout dengan biaya tambahan kecil."
+  },
+  {
+    "faq_id": 14,
+    "category": "Pengiriman",
+    "question": "Kenapa status pengiriman saya tidak berubah selama beberapa hari?",
+    "answer": "Status yang tidak berubah bisa disebabkan keterlambatan update sistem kurir. Disarankan menunggu 1x24 jam sebelum melaporkan ke customer service."
+  },
+  {
+    "faq_id": 15,
+    "category": "Pengiriman",
+    "question": "Apakah bisa memilih jasa pengiriman sendiri saat checkout?",
+    "answer": "Ya, Anda dapat memilih jasa pengiriman yang tersedia pada halaman checkout sesuai preferensi dan estimasi biaya masing-masing."
+  },
+  {
+    "faq_id": 16,
+    "category": "Pengiriman",
+    "question": "Apa yang harus dilakukan jika paket diterima dalam kondisi rusak?",
+    "answer": "Segera ambil foto/video kondisi paket saat diterima dan laporkan melalui menu komplain dalam waktu 2x24 jam sejak barang diterima."
+  },
+  {
+    "faq_id": 17,
+    "category": "Pembayaran",
+    "question": "Metode pembayaran apa saja yang tersedia?",
+    "answer": "Kami mendukung transfer bank, kartu kredit/debit, e-wallet, dan pembayaran melalui minimarket rekanan."
+  },
+  {
+    "faq_id": 18,
+    "category": "Pembayaran",
+    "question": "Apakah ada biaya tambahan untuk pembayaran menggunakan kartu kredit?",
+    "answer": "Beberapa metode kartu kredit dikenakan biaya admin tambahan yang besarannya ditampilkan sebelum konfirmasi pembayaran."
+  },
+  {
+    "faq_id": 19,
+    "category": "Pembayaran",
+    "question": "Berapa lama batas waktu pembayaran sebelum pesanan dibatalkan?",
+    "answer": "Batas waktu pembayaran umumnya 24 jam sejak pesanan dibuat, tergantung metode pembayaran yang dipilih."
+  },
+  {
+    "faq_id": 20,
+    "category": "Pembayaran",
+    "question": "Apakah saya bisa membayar dengan cicilan?",
+    "answer": "Fitur cicilan tersedia untuk transaksi dengan kartu kredit tertentu pada nominal minimal yang ditentukan pihak bank."
+  },
+  {
+    "faq_id": 21,
+    "category": "Pembayaran",
+    "question": "Kenapa pembayaran saya berhasil dipotong tapi status pesanan masih belum terbayar?",
+    "answer": "Ini biasanya karena keterlambatan sinkronisasi sistem pembayaran. Silakan tunggu 15-30 menit atau hubungi customer service jika status belum berubah."
+  },
+  {
+    "faq_id": 22,
+    "category": "Pembayaran",
+    "question": "Apakah bisa membayar menggunakan lebih dari satu metode sekaligus?",
+    "answer": "Saat ini sistem belum mendukung pembayaran gabungan (split payment) dalam satu transaksi."
+  },
+  {
+    "faq_id": 23,
+    "category": "Pembayaran",
+    "question": "Bagaimana cara mendapatkan bukti pembayaran atau invoice?",
+    "answer": "Invoice otomatis tersedia dan dapat diunduh melalui halaman detail pesanan setelah pembayaran berhasil dikonfirmasi."
+  },
+  {
+    "faq_id": 24,
+    "category": "Pengembalian",
+    "question": "Bagaimana prosedur pengembalian barang yang tidak sesuai?",
+    "answer": "Ajukan pengembalian melalui menu 'Pesanan Saya' dengan memilih alasan dan menyertakan bukti foto, maksimal 3 hari sejak barang diterima."
+  },
+  {
+    "faq_id": 25,
+    "category": "Pengembalian",
+    "question": "Berapa lama proses refund setelah pengembalian disetujui?",
+    "answer": "Dana refund biasanya diproses dalam 3-7 hari kerja setelah barang dikembalikan diterima dan diverifikasi penjual."
+  },
+  {
+    "faq_id": 26,
+    "category": "Pengembalian",
+    "question": "Apakah semua produk bisa dikembalikan?",
+    "answer": "Produk seperti pakaian dalam, produk higienis, dan barang custom umumnya tidak dapat dikembalikan kecuali terbukti cacat produksi."
+  },
+  {
+    "faq_id": 27,
+    "category": "Pengembalian",
+    "question": "Ke mana dana refund akan dikembalikan?",
+    "answer": "Dana refund akan dikembalikan ke metode pembayaran awal, atau ke saldo akun apabila memilih opsi tersebut saat pengajuan."
+  },
+  {
+    "faq_id": 28,
+    "category": "Pengembalian",
+    "question": "Apakah biaya ongkos kirim pengembalian ditanggung pembeli?",
+    "answer": "Jika barang tidak sesuai deskripsi atau cacat produksi, ongkos kirim pengembalian ditanggung penjual. Jika alasan pribadi (bukan karena kesalahan penjual), biaya ditanggung pembeli."
+  },
+  {
+    "faq_id": 29,
+    "category": "Pengembalian",
+    "question": "Bagaimana jika penjual menolak pengajuan pengembalian saya?",
+    "answer": "Anda dapat mengajukan banding melalui pusat resolusi dengan menyertakan bukti tambahan agar ditinjau oleh tim mediasi."
+  },
+  {
+    "faq_id": 30,
+    "category": "Pengembalian",
+    "question": "Apakah bisa menukar barang dengan ukuran/warna lain daripada refund?",
+    "answer": "Penukaran ukuran/warna tergantung kebijakan masing-masing penjual, silakan cek ketersediaan stok terlebih dahulu sebelum mengajukan."
+  },
+  {
+    "faq_id": 31,
+    "category": "Akun",
+    "question": "Bagaimana cara mendaftar akun baru?",
+    "answer": "Klik tombol 'Daftar' di halaman utama, isi data diri seperti nama, email, dan nomor telepon, lalu verifikasi melalui kode OTP."
+  },
+  {
+    "faq_id": 32,
+    "category": "Akun",
+    "question": "Saya lupa password akun, bagaimana cara mengaturnya ulang?",
+    "answer": "Klik 'Lupa Password' pada halaman login, masukkan email terdaftar, lalu ikuti instruksi reset password yang dikirim ke email Anda."
+  },
+  {
+    "faq_id": 33,
+    "category": "Akun",
+    "question": "Bagaimana cara mengubah nomor telepon yang terdaftar di akun?",
+    "answer": "Nomor telepon dapat diubah melalui menu 'Pengaturan Akun' dan memerlukan verifikasi ulang melalui kode OTP ke nomor baru."
+  },
+  {
+    "faq_id": 34,
+    "category": "Akun",
+    "question": "Apakah bisa memiliki lebih dari satu akun dengan email yang sama?",
+    "answer": "Satu alamat email hanya dapat digunakan untuk satu akun demi keamanan dan mencegah penyalahgunaan promo."
+  },
+  {
+    "faq_id": 35,
+    "category": "Akun",
+    "question": "Bagaimana cara menghapus akun secara permanen?",
+    "answer": "Pengajuan penghapusan akun dapat dilakukan melalui menu 'Pengaturan Akun > Hapus Akun' atau menghubungi customer service."
+  },
+  {
+    "faq_id": 36,
+    "category": "Akun",
+    "question": "Apakah data pribadi saya aman di platform ini?",
+    "answer": "Kami menerapkan enkripsi data dan kebijakan privasi ketat untuk melindungi data pribadi pengguna sesuai regulasi yang berlaku."
+  },
+  {
+    "faq_id": 37,
+    "category": "Promo",
+    "question": "Bagaimana cara menggunakan kode voucher saat checkout?",
+    "answer": "Masukkan kode voucher pada kolom 'Kode Promo' di halaman checkout sebelum melakukan pembayaran, diskon akan otomatis terpotong."
+  },
+  {
+    "faq_id": 38,
+    "category": "Promo",
+    "question": "Kenapa kode voucher saya tidak bisa digunakan?",
+    "answer": "Kode voucher mungkin sudah kedaluwarsa, tidak berlaku untuk kategori produk tersebut, atau telah mencapai batas penggunaan maksimal."
+  },
+  {
+    "faq_id": 39,
+    "category": "Promo",
+    "question": "Apakah promo bisa digabung dengan diskon member?",
+    "answer": "Beberapa promo dapat digabung dengan diskon member, namun ada juga promo eksklusif yang tidak dapat ditumpuk. Ketentuan tertera pada halaman detail promo."
+  },
+  {
+    "faq_id": 40,
+    "category": "Promo",
+    "question": "Bagaimana cara mendapatkan info promo terbaru?",
+    "answer": "Info promo terbaru dapat dilihat pada halaman utama, email berlangganan, atau notifikasi aplikasi yang telah diaktifkan."
+  },
+  {
+    "faq_id": 41,
+    "category": "Promo",
+    "question": "Apakah cashback dari promo langsung masuk ke saldo?",
+    "answer": "Cashback biasanya diproses dan masuk ke saldo akun dalam 1x24 jam setelah transaksi selesai dan terverifikasi."
+  },
+  {
+    "faq_id": 42,
+    "category": "Produk",
+    "question": "Bagaimana cara mengetahui apakah suatu produk asli atau palsu?",
+    "answer": "Belanja di toko resmi/terverifikasi dan periksa deskripsi serta ulasan pembeli lain sebagai indikator keaslian produk."
+  },
+  {
+    "faq_id": 43,
+    "category": "Produk",
+    "question": "Apakah stok yang tertera di aplikasi selalu update secara real-time?",
+    "answer": "Stok diperbarui secara berkala oleh penjual, namun kadang terjadi selisih kecil apabila ada transaksi bersamaan dari banyak pembeli."
+  },
+  {
+    "faq_id": 44,
+    "category": "Produk",
+    "question": "Bagaimana jika produk yang saya pesan ternyata kehabisan stok?",
+    "answer": "Jika stok habis setelah pesanan dibuat, penjual akan membatalkan sebagian/seluruh pesanan dan dana otomatis dikembalikan."
+  },
+  {
+    "faq_id": 45,
+    "category": "Produk",
+    "question": "Apakah saya bisa request custom produk kepada penjual?",
+    "answer": "Beberapa penjual menyediakan opsi request custom melalui kolom catatan pesanan, namun ketersediaannya tergantung masing-masing toko."
+  },
+  {
+    "faq_id": 46,
+    "category": "Produk",
+    "question": "Di mana saya bisa melihat ukuran/size chart produk pakaian?",
+    "answer": "Size chart biasanya tersedia pada galeri foto produk atau bagian deskripsi produk, silakan periksa sebelum melakukan pemesanan."
+  },
+  {
+    "faq_id": 47,
+    "category": "Produk",
+    "question": "Bagaimana cara memberikan ulasan untuk produk yang sudah dibeli?",
+    "answer": "Ulasan dapat diberikan melalui menu 'Pesanan Saya' setelah status pesanan menjadi 'Selesai', dengan menyertakan rating dan foto jika diinginkan."
+  },
+  {
+    "faq_id": 48,
+    "category": "Customer Service",
+    "question": "Bagaimana cara menghubungi customer service?",
+    "answer": "Customer service dapat dihubungi melalui fitur live chat di aplikasi, email resmi, atau nomor telepon yang tertera di halaman bantuan."
+  },
+  {
+    "faq_id": 49,
+    "category": "Customer Service",
+    "question": "Berapa lama waktu respon customer service terhadap keluhan?",
+    "answer": "Rata-rata waktu respon adalah 1x24 jam pada hari kerja, dapat lebih lama pada periode promo besar karena tingginya volume chat."
+  },
+  {
+    "faq_id": 50,
+    "category": "Customer Service",
+    "question": "Bagaimana cara melaporkan penjual yang menipu?",
+    "answer": "Laporkan melalui menu 'Pusat Resolusi' dengan menyertakan bukti transaksi dan komunikasi sebagai bahan investigasi tim internal."
+  },
+  {
+    "faq_id": 51,
+    "category": "Customer Service",
+    "question": "Apakah tersedia layanan pengaduan 24 jam?",
+    "answer": "Live chat otomatis (chatbot) tersedia 24 jam, sementara agen customer service manusia melayani pada jam operasional tertentu."
+  },
+  {
+    "faq_id": 52,
+    "category": "Pengiriman",
+    "question": "Kenapa nomor resi saya belum bisa dilacak di website kurir?",
+    "answer": "Nomor resi baru dapat dilacak setelah paket diserahterimakan ke pihak kurir, biasanya butuh waktu beberapa jam setelah status 'Dikirim'."
+  },
+  {
+    "faq_id": 53,
+    "category": "Pembayaran",
+    "question": "Apakah saya perlu konfirmasi manual setelah transfer bank?",
+    "answer": "Untuk transfer bank melalui Virtual Account, konfirmasi dilakukan otomatis oleh sistem. Transfer manual biasa memerlukan upload bukti transfer."
+  },
+  {
+    "faq_id": 54,
+    "category": "Pengembalian",
+    "question": "Saya menerima barang yang salah, apa yang harus saya lakukan?",
+    "answer": "Ajukan komplain 'Barang Tidak Sesuai' melalui menu Pesanan Saya, sertakan foto barang yang diterima untuk mempercepat proses verifikasi."
+  },
+  {
+    "faq_id": 55,
+    "category": "Akun",
+    "question": "Kenapa akun saya tiba-tiba tidak bisa login?",
+    "answer": "Akun dapat terkunci sementara karena kesalahan login berulang atau terindikasi aktivitas mencurigakan. Silakan reset password atau hubungi customer service."
+  },
+  {
+    "faq_id": 56,
+    "category": "Promo",
+    "question": "Apakah member baru mendapat diskon khusus?",
+    "answer": "Pengguna baru biasanya mendapat voucher selamat datang yang dapat digunakan pada transaksi pertama, cek halaman promo setelah pendaftaran."
+  },
+  {
+    "faq_id": 57,
+    "category": "Produk",
+    "question": "Bagaimana cara membandingkan beberapa produk sekaligus?",
+    "answer": "Gunakan fitur 'Bandingkan Produk' pada halaman kategori untuk melihat spesifikasi beberapa produk secara berdampingan."
+  },
+  {
+    "faq_id": 58,
+    "category": "Pemesanan",
+    "question": "Apakah bisa memesan dalam jumlah besar untuk kebutuhan reseller?",
+    "answer": "Untuk pembelian grosir, silakan hubungi penjual langsung melalui chat untuk menanyakan ketersediaan stok dan kemungkinan harga khusus."
+  },
+  {
+    "faq_id": 59,
+    "category": "Customer Service",
+    "question": "Bagaimana cara eskalasi keluhan jika belum ditangani customer service?",
+    "answer": "Apabila keluhan belum terselesaikan dalam waktu wajar, Anda dapat mengajukan eskalasi melalui email resmi dengan menyertakan nomor tiket sebelumnya."
+  }
+]
