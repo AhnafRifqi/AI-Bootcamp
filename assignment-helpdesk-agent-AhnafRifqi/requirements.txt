@@ -1,0 +1,16 @@
+# Library inti
+pandas>=2.2
+numpy>=1.26
+
+# Vector database
+faiss-cpu>=1.8
+
+# Gemini API (google-genai)
+google-genai>=1.0
+
+# Backend API
+fastapi>=0.100
+uvicorn>=0.27
+
+# Utilitas
+python-dotenv>=1.0

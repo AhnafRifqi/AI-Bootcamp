@@ -1,0 +1,32 @@
+faq_id,category,question,answer
+1,Cuti & Absensi,Berapa jatah cuti tahunan karyawan tetap?,Karyawan tetap mendapat jatah 12 hari cuti tahunan yang dapat diambil setelah masa kerja minimal 3 bulan.
+2,Cuti & Absensi,Bagaimana cara mengajukan cuti?,"Cuti diajukan melalui portal HR internal minimal 3 hari kerja sebelum tanggal cuti, dan memerlukan persetujuan atasan langsung."
+3,Cuti & Absensi,Apakah cuti yang tidak terpakai bisa dibawa ke tahun berikutnya?,"Sisa cuti dapat dibawa maksimal 6 hari ke tahun berikutnya, dan harus digunakan dalam kuartal pertama tahun tersebut."
+4,Cuti & Absensi,Bagaimana prosedur izin sakit?,Izin sakit lebih dari 1 hari wajib menyertakan surat keterangan dokter yang diunggah ke portal HR maksimal 2 hari setelah kembali bekerja.
+5,Cuti & Absensi,Apakah bisa mengambil cuti mendadak untuk keperluan darurat?,"Cuti darurat dapat diajukan langsung ke atasan melalui chat/telepon, dengan pengajuan formal di sistem HR maksimal 1 hari kerja setelahnya."
+6,Cuti & Absensi,Bagaimana cara melihat sisa cuti yang saya miliki?,Sisa cuti dapat dilihat secara real-time melalui portal HR pada menu 'Ringkasan Cuti Saya'.
+7,Cuti & Absensi,Apakah cuti bersama/libur nasional mengurangi jatah cuti tahunan?,Cuti bersama dan libur nasional tidak mengurangi jatah cuti tahunan karyawan.
+8,Akses & Password,Bagaimana cara reset password VPN perusahaan?,"Reset password VPN dapat dilakukan mandiri melalui portal self-service IT, atau menghubungi tim IT Support jika akun terkunci."
+9,Akses & Password,Kenapa saya tidak bisa login ke email perusahaan?,Kegagalan login biasanya disebabkan password kedaluwarsa (wajib diganti setiap 90 hari) atau akun terkunci karena percobaan login yang gagal berulang kali.
+10,Akses & Password,Bagaimana cara mendapatkan akses ke sistem internal baru?,"Pengajuan akses sistem baru dilakukan melalui tiket IT dengan persetujuan atasan, dan biasanya diproses dalam 1-2 hari kerja."
+11,Akses & Password,Apakah password wajib diganti secara berkala?,"Ya, seluruh password akun perusahaan wajib diganti setiap 90 hari sesuai kebijakan keamanan data internal."
+12,Akses & Password,Bagaimana jika lupa password akun laptop kerja?,"Hubungi tim IT Support melalui tiket untuk reset password akun laptop, verifikasi identitas akan dilakukan sebelum reset dilakukan."
+13,Akses & Password,Apakah bisa mengakses sistem internal dari luar kantor?,Akses dari luar kantor memerlukan koneksi VPN aktif yang sudah terinstal pada perangkat kerja resmi.
+14,Perangkat & Equipment,Bagaimana cara mengajukan permintaan laptop baru?,"Permintaan laptop baru diajukan melalui tiket IT dengan justifikasi kebutuhan, dan memerlukan persetujuan manajer serta tim IT Asset."
+15,Perangkat & Equipment,Apa yang harus dilakukan jika laptop kerja rusak?,"Laporkan kerusakan melalui tiket IT dengan kategori 'Hardware Issue', sertakan deskripsi masalah agar tim dapat memberikan unit pengganti sementara jika diperlukan."
+16,Perangkat & Equipment,Berapa lama waktu perbaikan perangkat yang rusak?,"Perbaikan ringan umumnya selesai dalam 1-3 hari kerja, sedangkan kerusakan berat dapat memerlukan waktu lebih lama tergantung ketersediaan sparepart."
+17,Perangkat & Equipment,Apakah karyawan bisa menginstal software pribadi di laptop kerja?,Instalasi software di luar daftar yang disetujui perusahaan memerlukan izin tertulis dari tim IT Security terlebih dahulu.
+18,Perangkat & Equipment,Bagaimana prosedur pengembalian perangkat saat resign?,"Seluruh perangkat kerja (laptop, aksesoris) wajib dikembalikan ke tim IT Asset pada hari kerja terakhir, dengan form serah terima yang ditandatangani."
+19,Onboarding & HR,Apa saja yang perlu disiapkan karyawan baru di hari pertama?,"Karyawan baru perlu membawa dokumen identitas asli untuk verifikasi, dan akan menerima akun email serta akses sistem pada hari pertama."
+20,Onboarding & HR,Bagaimana cara mengakses slip gaji bulanan?,Slip gaji dapat diunduh setiap tanggal 25 melalui portal HR pada menu 'Payroll'.
+21,Onboarding & HR,Bagaimana cara mengubah data rekening bank untuk penggajian?,"Perubahan rekening bank dapat dilakukan melalui portal HR pada menu 'Data Pribadi', dan memerlukan verifikasi dokumen pendukung."
+22,Onboarding & HR,Apakah perusahaan menyediakan asuransi kesehatan?,"Seluruh karyawan tetap mendapat fasilitas asuransi kesehatan yang aktif sejak bulan pertama bekerja, mencakup rawat inap dan rawat jalan."
+23,Onboarding & HR,Bagaimana cara mengajukan reimbursement biaya kerja?,"Reimbursement diajukan melalui portal HR dengan mengunggah bukti pembayaran, dan diproses dalam siklus payroll berikutnya."
+24,Onboarding & HR,Kepada siapa saya melapor jika ada masalah dengan atasan langsung?,Masalah dengan atasan dapat dilaporkan ke HR Business Partner masing-masing departemen atau melalui kanal pengaduan rahasia perusahaan.
+25,Kebijakan Kerja,Apakah perusahaan menerapkan kebijakan kerja hybrid?,"Ya, karyawan dapat bekerja dari rumah maksimal 2 hari per minggu sesuai kesepakatan dengan atasan masing-masing tim."
+26,Kebijakan Kerja,Berapa jam kerja standar per hari?,"Jam kerja standar adalah 8 jam per hari, Senin-Jumat, dengan fleksibilitas jam masuk antara pukul 08.00-10.00."
+27,Kebijakan Kerja,Apakah ada kebijakan lembur dan kompensasinya?,"Lembur yang disetujui atasan akan dikompensasi sesuai regulasi ketenagakerjaan yang berlaku, dihitung berdasarkan jam kerja tambahan yang tercatat."
+28,Kebijakan Kerja,Bagaimana kebijakan penggunaan cuti melahirkan/paternity leave?,"Cuti melahirkan diberikan 3 bulan sesuai regulasi, sedangkan cuti paternity diberikan 2 hari kerja bagi karyawan pria."
+29,Tools & Kolaborasi,Aplikasi apa yang digunakan untuk komunikasi internal tim?,"Perusahaan menggunakan Slack sebagai kanal komunikasi utama, dan Google Meet untuk pertemuan virtual."
+30,Tools & Kolaborasi,Bagaimana cara mendapatkan akses ke Google Workspace perusahaan?,Akses Google Workspace otomatis diberikan bersamaan dengan pembuatan akun email perusahaan saat onboarding.
+31,Tools & Kolaborasi,Apakah ada pelatihan penggunaan tools internal untuk karyawan baru?,"Sesi onboarding IT mencakup pelatihan dasar penggunaan tools internal, dijadwalkan pada minggu pertama karyawan bergabung."
