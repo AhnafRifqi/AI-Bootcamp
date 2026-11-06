@@ -126,9 +126,6 @@ Catatan:
 - Proses embed knowledge base hanya **1 request batch**; seluruh alur uji (6 query + demo) membutuhkan ±17 request API — muat dalam kuota free-tier dengan retry otomatis bila kena rate limit.
 - Membangun ulang index via `src/build_index.py` akan menimpa `data/faiss_index.index` dengan embedding baru (isinya setara, karena dihitung dari CSV yang sama).
 
-### catatan Cline
-Assignment selesai dan tervalidasi penuh. Ringkasan akhir:
-
 ## ✅ Yang dikerjakan
 
 **Lokasi:** `d:\Rework Academy\Praktek\AI-Bootcamp\assignment-semantic-search-AhnafRifqi\` (subfolder, belum di-commit/push sesuai permintaan)

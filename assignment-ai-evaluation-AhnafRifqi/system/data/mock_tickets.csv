@@ -1,0 +1,16 @@
+ticket_id,employee_name,category,subject,status,last_update
+TICKET-0001,Andi Pratama,Hardware,Laptop tidak bisa menyala,Selesai,2026-08-20
+TICKET-0002,Sari Dewi,Access,Permintaan akses Google Analytics,Diproses,2026-08-25
+TICKET-0003,Budi Santoso,Software,Instalasi software desain,Menunggu Persetujuan,2026-08-26
+TICKET-0004,Rina Wijaya,Hardware,Mouse rusak perlu penggantian,Selesai,2026-08-18
+TICKET-0005,Dedi Kurniawan,Access,Reset password VPN gagal terus,Diproses,2026-08-27
+TICKET-0006,Fitri Handayani,Network,Koneksi internet kantor lambat,Selesai,2026-08-15
+TICKET-0007,Agus Setiawan,Hardware,Permintaan monitor eksternal,Menunggu Persetujuan,2026-08-24
+TICKET-0008,Maya Putri,Software,Lisensi software desain kedaluwarsa,Diproses,2026-08-26
+TICKET-0009,Hendra Gunawan,Access,Akun terkunci setelah lupa password,Selesai,2026-08-21
+TICKET-0010,Lestari Ningsih,Hardware,Laptop overheat saat dipakai lama,Diproses,2026-08-27
+TICKET-0011,Rudi Hartono,Network,VPN terputus-putus saat WFH,Menunggu Persetujuan,2026-08-25
+TICKET-0012,Nadia Anggraini,Software,Permintaan software project management,Selesai,2026-08-19
+TICKET-0013,Yusuf Ibrahim,Hardware,Keyboard laptop error beberapa tombol,Diproses,2026-08-26
+TICKET-0014,Citra Ayu,Access,Akses folder shared drive tim baru,Menunggu Persetujuan,2026-08-27
+TICKET-0015,Bayu Aji,Network,Wifi kantor lantai 3 sering putus,Selesai,2026-08-22

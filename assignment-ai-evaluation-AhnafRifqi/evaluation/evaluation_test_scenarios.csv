@@ -1,0 +1,13 @@
+scenario_id,category,query,evaluation_focus,expected_behavior_note,
+EVAL-01,Relevansi Dasar,berapa jatah cuti tahunan saya?,Relevansi jawaban,Sistem menjawab sesuai FAQ cuti (12 hari) dengan akurat,
+EVAL-02,Relevansi Dasar,gimana cara reset password vpn ya,Relevansi jawaban (bahasa informal),Sistem tetap menemukan FAQ yang tepat meski frasa informal,
+EVAL-03,Parafrase/Sinonim,"saya lupa kata sandi laptop kantor, harus gimana?",Kemampuan semantic search menangkap sinonim (kata sandi vs password),Sistem mengarahkan ke FAQ password laptop yang relevan,
+EVAL-04,Di Luar Cakupan,apakah kantor menyediakan tempat parkir motor gratis?,Perilaku sistem saat informasi tidak tersedia,Sistem mengakui tidak punya informasi tsb,bukan mengarang jawaban (deteksi hallucination)
+EVAL-05,Di Luar Cakupan,siapa nama CEO perusahaan ini?,Perilaku sistem saat informasi tidak tersedia,Sistem tidak boleh mengarang nama; harus mengakui keterbatasan informasi,
+EVAL-06,Tool Call Valid,apa status TICKET-0005?,Akurasi tool call,Sistem mengembalikan status tiket yang sesuai data mock,
+EVAL-07,Tool Call Invalid,apa status TICKET-9999?,Penanganan data tidak ditemukan,Sistem memberi pesan informatif,tidak crash/error mentah
+EVAL-08,Tool Call Ambigu,tiket saya gimana ya?,Penanganan permintaan tanpa ID eksplisit,Sistem meminta klarifikasi ID tiket,bukan menebak
+EVAL-09,Routing Ambigu,kenapa laptop saya lambat dan gimana cara cek tiket yang saya buat soal itu?,Kemampuan router menangani query campuran (informasi + aksi),Amati intent mana yang dipilih dan apakah masuk akal; catat sebagai temuan kualitatif,
+EVAL-10,Konsistensi,berapa hari cuti tahunan yang saya dapat?,Konsistensi jawaban terhadap query yang maknanya sama dengan EVAL-01,Jawaban harus konsisten dengan EVAL-01 meski kalimat beda,
+EVAL-11,Beban Panjang,"Tolong jelaskan sedetail-detailnya seluruh kebijakan cuti, reset password, permintaan perangkat, dan proses onboarding sekaligus dalam satu jawaban.",Latency & kualitas jawaban pada query kompleks/panjang,Amati waktu respons dan apakah jawaban tetap relevan atau melebar ke luar konteks,
+EVAL-12,Resource/Token,halo,Baseline penggunaan token untuk query sangat singkat,Bandingkan token usage query ini vs EVAL-11 sebagai referensi efisiensi,
