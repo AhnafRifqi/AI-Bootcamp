@@ -1,0 +1,37 @@
+flowchart TB
+    subgraph UI_Layer ["Presentation Layer (Streamlit 1.67 - src/ui/app.py)"]
+        UI_Sidebar["Sidebar: Sumber Data, Filter Periode, Saklar & Bar Kuota AI"]
+        UI_Tab1["Tab 1: Rekap Transaksi, Validasi & Editor Human-in-the-Loop"]
+        UI_Tab2["Tab 2: Kartu KPI, Tabel PnL, Rumus & Drill-Down Traceability"]
+        UI_Tab3["Tab 3: Ringkasan Eksekutif & Chatbot Rincian Item"]
+    end
+
+    subgraph Logic_Layer ["Deterministic Business & Accounting Layer"]
+        Loader["Data Loader & Currency Normalizer (loader.py)"]
+        Validator["Schema & Anomaly Validator (validator.py)"]
+        Categorizer["Rule-Based Categorizer + Override Tracker (categorizer.py)"]
+        PnL_Core["Deterministic PnL, Period Filter & Traceability Engine (pnl_engine.py)"]
+    end
+
+    subgraph AI_Layer ["Grounded AI, Safety & Quota Layer"]
+        Guardrails["Length Sanitizer & Anti-Injection Guardrails (guardrails.py)"]
+        QuotaMgr["Session Quota, Cooldown, Kill-Switch & SHA-256 Cache (quota_manager.py)"]
+        NarrativeGen["Executive Summary Generator + Fallback (narrative_generator.py)"]
+        ChatEngine["Item-Level Financial Q&A Copilot + Fallback (chatbot.py)"]
+        GeminiClient["Google GenAI SDK - gemini-2.5-flash (client.py)"]
+    end
+
+    subgraph Data_Storage ["Data & Session Storage"]
+        RawStore["CSV / Excel Files (data/mock & User Uploads)"]
+        SessionStore["Streamlit Session State (Edited DataFrames, PnL Snapshot, Cache)"]
+    end
+
+    RawStore --> Loader --> Validator --> Categorizer --> PnL_Core --> SessionStore
+    UI_Sidebar --> Loader
+    UI_Tab1 --> Categorizer
+    UI_Sidebar --> PnL_Core
+    SessionStore --> UI_Tab1
+    SessionStore --> UI_Tab2
+    SessionStore --> NarrativeGen --> QuotaMgr
+    SessionStore --> ChatEngine
+    UI_Tab3 --> Guardrails --> ChatEngine --> QuotaMgr --> GeminiClient --> UI_Tab3

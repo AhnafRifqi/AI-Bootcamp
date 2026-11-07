@@ -1,0 +1,12 @@
+tanggal,nomor_invoice,nama_pelanggan,saluran_penjualan,nama_produk,kuantitas,harga_satuan,total_pendapatan
+2026-10-02,INV-202610-001,Toko Sehat Alami Bintaro,B2B Reseller,Mi Mocaf Tempe 100g,400,12000,4800000
+2026-10-04,INV-202610-002,Pelanggan Shopee #1089,Shopee Official,Mi Jagung Mocaf Pedas 100g,50,13500,675000
+2026-10-05,INV-202610-003,Komunitas Gluten Free Jaksel,Komunitas,Mi Mocaf Tempe Family Pack 500g,120,45000,5400000
+2026-10-08,INV-202610-004,Organic Mart Bandung,B2B Reseller,Mi Mocaf Tempe 100g,500,12000,6000000
+2026-10-10,INV-202610-005,Pelanggan Tokopedia #2341,Tokopedia Official,Bundle Hemat Komoditi Lokal (3 Rasa),80,38000,3040000
+2026-10-14,INV-202610-006,Healthy Pantry Surabaya,B2B Reseller,Mi Mocaf Tempe 100g,600,12000,7200000
+2026-10-17,INV-202610-007,Pelanggan Shopee #1221,Shopee Official,Mi Mocaf Tempe Family Pack 500g,60,48000,2880000
+2026-10-20,INV-202610-008,Toko Organik Sejahtera BSD,B2B Reseller,Mi Jagung Mocaf Pedas 100g,350,13000,4550000
+2026-10-23,INV-202610-009,Pelanggan Tokopedia #2550,Tokopedia Official,Mi Mocaf Tempe 100g,100,14000,1400000
+2026-10-27,INV-202610-010,Kafe Vegan & Gluten Free Menteng,B2B Direct,Mi Mocaf Tempe Family Pack 500g,150,45000,6750000
+2026-10-30,INV-202610-011,Pelanggan Shopee #1390,Shopee Official,Bundle Hemat Komoditi Lokal (3 Rasa),110,38000,4180000

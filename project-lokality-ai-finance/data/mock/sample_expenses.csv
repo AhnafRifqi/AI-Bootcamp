@@ -1,0 +1,15 @@
+tanggal,kategori,deskripsi,jumlah,satuan,harga_satuan,total_biaya,tipe_akun
+2026-10-01,Bahan Baku,Tepung Mocaf Organik Premium,500,kg,14000,7000000,HPP_Bahan_Baku
+2026-10-02,Bahan Baku,Tepung Beras Putih Non-Gluten,300,kg,12500,3750000,HPP_Bahan_Baku
+2026-10-03,Bahan Baku,Tepung Jagung Halus (Corn Flour),200,kg,11000,2200000,HPP_Bahan_Baku
+2026-10-04,Bahan Baku,Tempe Kedelai Lokal Fermentasi (Fortifikasi),150,kg,16000,2400000,HPP_Bahan_Baku
+2026-10-05,Kemasan,Standing Pouch Eco Biodegradable 100g,4000,pcs,1200,4800000,HPP_Kemasan
+2026-10-06,Kemasan,Karton Box Corrugated Master (isi 40 pack),100,pcs,8500,850000,HPP_Kemasan
+2026-10-07,Bahan Penolong,Bumbu Alami Ekstrak Jamur & Rempah,40,kg,45000,1800000,HPP_Bahan_Baku
+2026-10-10,Tenaga Kerja Langsung,Upah Harian Operator Penggilingan & Oven (Minggu 1-2),1,paket,3500000,3500000,HPP_Tenaga_Kerja
+2026-10-12,Operasional Pabrik,Listrik PLN Daya 3-Phase Workshop Produksi,1,bulan,1850000,1850000,OPEX_Utilitas
+2026-10-13,Operasional Pabrik,Pengisian Tabung Gas LPG 50kg Oven Pengering,2,tabung,950000,1900000,OPEX_Utilitas
+2026-10-15,Logistik & Distribusi,Biaya Ekspedisi Bahan Baku & Pengiriman Reseller,1,paket,1250000,1250000,OPEX_Logistik
+2026-10-18,Pemasaran & Digital,Iklan Meta & Shopee Ads Kampanye Mi Sehat,1,bulan,2000000,2000000,OPEX_Pemasaran
+2026-10-24,Tenaga Kerja Langsung,Upah Harian Operator Packaging & QC (Minggu 3-4),1,paket,3500000,3500000,HPP_Tenaga_Kerja
+2026-10-28,Administrasi & Umum,Penyusutan Peralatan & Perlengkapan Kantor,1,bulan,1500000,1500000,OPEX_Admin

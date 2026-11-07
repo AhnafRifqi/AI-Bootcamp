@@ -1,0 +1,22 @@
+flowchart TD
+    Start(["Mulai Aplikasi Web Streamlit"]) --> SidebarCtrl["Sidebar: Pilih Sumber Data, Filter Periode & Saklar AI"]
+    SidebarCtrl -->|Data Standar| LoadSample["Muat Data Sampel Lokality (CSV)"]
+    SidebarCtrl -->|Unggah Mandiri| UploadFiles["Unggah CSV / Excel Penjualan & Pengeluaran"]
+    UploadFiles --> Validasi{"Validasi Skema & Kolom Wajib"}
+    Validasi -->|Format Tidak Sesuai| ShowError["Tampilkan Peringatan Validasi Eksplisit"]
+    ShowError --> UploadFiles
+    Validasi -->|Valid| Cleaning["Normalisasi Kolom, Mata Uang Rupiah & Tanggal"]
+    LoadSample --> Cleaning
+    Cleaning --> AutoCat["Auto-Kategorisasi Belanja (HPP vs OPEX) + Pelacakan Sumber"]
+    AutoCat --> Tab1Edit{"Tab 1: Koreksi Manual Human-in-the-Loop?"}
+    Tab1Edit -->|Ubah tipe_akun| ApplyOverride["Tandai 'Koreksi Manual' & Rekalkulasi Seketika"]
+    Tab1Edit -->|Sudah Sesuai| PeriodFilter["Terapkan Filter Periode (Semua / Bulanan / Rentang Tanggal)"]
+    ApplyOverride --> PeriodFilter
+    PeriodFilter --> PnLEngine["Kalkulasi Deterministik PnL + Cek Kelengkapan Data"]
+    PnLEngine --> Tab2["Tab 2: Kartu KPI, Tabel PnL, Drill-Down Audit & Unduh CSV"]
+    PnLEngine --> Tab3["Tab 3: Ringkasan Eksekutif & Chatbot Rincian Item"]
+    Tab3 --> Guardrails{"Sanitasi 500 Karakter & Safety Guardrails"}
+    Guardrails -->|Luar Topik / Injection| Reject["Tolak Santun Tanpa Memotong Kuota"]
+    Guardrails -->|Lolos| Quota{"Cek Cache, Saklar AI & Kuota Sesi"}
+    Quota -->|Cache Hit / Lokal| LocalAns["Jawab dari Cache / Mesin Deterministik Lokal"]
+    Quota -->|Online & Tersedia| GeminiAns["Gemini 2.5 Flash: Jawab Terikat Data & [EXP-xxx]"]

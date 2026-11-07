@@ -1,0 +1,15 @@
+# Core Data & Calculation
+pandas>=2.2.0
+numpy>=1.26.0
+openpyxl>=3.1.0
+
+# AI & LLM Engine
+google-genai>=1.0.0
+pydantic>=2.0.0
+python-dotenv>=1.0.0
+
+# Interactive Frontend UI
+streamlit>=1.35.0
+
+# Testing
+pytest>=8.0.0
